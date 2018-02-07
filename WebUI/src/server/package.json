@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server Side",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Jayant Rana",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "concurrently": "^3.5.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express-session": "^1.15.6",
+    "express-slack": "^1.0.11",
+    "googleapis": "^25.0.0",
+    "nodemon": "^1.14.11",
+    "passport": "^0.4.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}

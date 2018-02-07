@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="181794872340-qdk5ljombm3jvgl2tp76lgk8k3ldboo8">
+    <link rel="stylesheet" type="text/css" href="https://s3-ap-south-1.amazonaws.com/peoplehum-dev/dev/static_resources/components/components.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Internal Quora</title>
+
+    <style media="screen">
+        .admin_pic {
+            display: block;
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        .customjumbotron {
+            background: #eee;
+            padding: 60px 30px;
+            border-radius: 5px;
+        }
+
+        .tab-content {
+            padding: 30px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+
+</body>
+<script src="/app/bundle.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+
+<script>
+    function myFunction() {
+        // Declare variables
+        var input, filter, table, tr, td, i;
+        input = document.getElementById("searchkey");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("users_table");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+                if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,171 @@
+.Home {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: #4D4341;
+    width: 100%;
+    height: 100%;
+}
+
+.customjumbotron {
+    min-height: 60px;
+    padding: 25px;
+}
+
+.C {
+    font-size: 150px;
+    color: #47D6C0;
+    font-family: cursive;
+}
+
+.MainTitle {
+    margin-top: 150px;
+    font-size: 80px;
+    color: #D6CE47;
+    font-family: "Courier New";
+}
+
+.TitleSlogan {
+    color: #fff;
+    font-family: monospace;
+    font-size: 22px;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 120px 0 0 0;
+    letter-spacing: .15em;
+    animation:
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+.OauthButton {
+    color: #A73B26;
+}
+
+.OauthButton a {
+    margin: 15px;
+}
+
+.Header nav {
+    background-color: #4D4341;
+}
+
+.NavSearch {
+    margin-top: 8px;
+    color: #ADD0D2;
+    font-weight: lighter;
+    background-color: #4D4341;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #2668A7;
+}
+
+.Feed {
+    position: absolute;
+    top: 70px;
+    width: 90%;
+    /*border: 1px solid #BEA29C;*/
+}
+
+.Profile {
+    position: absolute;
+    top: 70px;
+    width: 90%;
+    margin-left: 55px;
+    /*border: 1px solid #BEA29C;*/
+}
+
+.Feed .panel-heading {
+    padding: 10px;
+}
+
+.Feed .AuthorName {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.IndiFeed {
+    margin-top: 55px;
+    top: 70px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.Notification {
+    margin-top: 65px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.IndiFeed .panel-heading {
+    padding: 10px;
+}
+
+.Notification .panel-heading {
+    padding: 10px;
+}
+
+.IndiFeed .AuthorName {
+    margin-top: 10px;
+}
+
+.RealDesc {
+    margin-top: 30px;
+}
+
+.Search {
+    position: absolute;
+    top: 70px;
+    width: 90%;
+}
+
+.Search .panel-heading {
+    padding: 10px;
+}
+
+.custom-label {
+    margin-left: 10px;
+    background-color: #ADD0D2;
+    color: #A73B26;
+}
+
+.FeedImage {
+    margin-bottom: 10px;
+    width: 50%;
+    height: 300px;
+    display: block;
+    margin: 0px auto 10px auto;
+}
+
+.panel-footer {
+    padding: 25px;
+}
+
+.AnswerQues {
+    overflow-y: hidden;
+    width: 95%;
+    margin: 20px;
+}
+
+.toggle-container {
+    margin-top: -20px;
+}
+
+.ActiveSpan {
+    color: #2668A7;
+    font-size: 15px;
+    font-weight: lighter;
+}
