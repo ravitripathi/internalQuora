@@ -1,0 +1,5 @@
+
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Î÷œÂ8ð‚¼²•,
+fsquid:UselessImportCheck"=Remove this unused import 'javax.persistence.GeneratedValue'.(¤®À‚8ð‚¼²•,
+jsquid:UselessImportCheck"<Remove this unused import 'com.admin.admin.Dto.CategoryDto'.(ð†ª×úÿÿÿÿ8”‘…ý•,
+psquid:UselessImportCheck"GRemove this unused import 'org.hibernate.annotations.GenericGenerator'.(ƒÝŸÉ8ð‚¼²•,

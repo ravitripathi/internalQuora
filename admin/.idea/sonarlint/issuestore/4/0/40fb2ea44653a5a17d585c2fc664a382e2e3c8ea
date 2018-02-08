@@ -1,0 +1,4 @@
+
+]squid:S1126"AReplace this if-then-else statement by a single return statement.(‘Œ«‰8¿¿Á‹•,
+Tsquid:S1854"8Remove this useless assignment to local variable "temp".(üšÓí8¿¿Á‹•,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‚ô «8¿¿Á‹•,

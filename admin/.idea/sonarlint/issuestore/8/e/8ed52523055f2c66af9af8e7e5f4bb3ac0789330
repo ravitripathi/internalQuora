@@ -1,0 +1,9 @@
+
+<squid:S2129" Remove this "String" constructor(íÛìã8Œ„ö–,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ©¬û8Œ„ö–,
+Xsquid:S1854"<Remove this useless assignment to local variable "category".(•å°Û8Œ„ö–,
+Xsquid:S1854"<Remove this useless assignment to local variable "category".(•å°Û8Œ„ö–,
+Xsquid:S1854"<Remove this useless assignment to local variable "category".(•å°Û8Œ„ö–,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‚ô «8Œ„ö–,
+]squid:S1126"AReplace this if-then-else statement by a single return statement.(‘Œ«‰8Œ„ö–,
+\squid:S1854"@Remove this useless assignment to local variable "categoryName".(íÛìã8Œ„ö–,
